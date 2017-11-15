@@ -2,8 +2,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import os
-os.chdir('C:\\Users\\saket\\Desktop\\cricket machine learning')
+#import os
+#os.chdir('C:\\Users\\saket\\Desktop\\cricket machine learning')
 # Importing the dataset
 dataset = pd.read_csv('worldCup.csv')
 X = dataset.iloc[:, [1,2,3,4,5,6,7,8]].values
